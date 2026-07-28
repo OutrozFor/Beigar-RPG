@@ -1,30 +1,28 @@
 # ⚔️ Beigar RPG
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Status](https://img.shields.io/badge/Status-Concluído-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+> Um RPG de fantasia desenvolvido em **Python** como projeto da disciplina de **Computação I**, combinando narrativa interativa, combates estratégicos e interface gráfica.
 
-## 📖 Sobre
+## 📖 Sobre o Projeto
 
-**Beigar RPG** é um jogo de RPG desenvolvido em **Python** como projeto da disciplina de **Computação I**.
+**Beigar RPG** é um jogo de RPG desenvolvido durante a disciplina de **Computação I**, com o objetivo de aplicar os conceitos fundamentais de programação por meio da construção de um software completo.
 
-O jogo acompanha a jornada do jogador pelo reino de **Beigar**, onde decisões, batalhas e exploração conduzem a diferentes caminhos da história. Durante a aventura, o jogador enfrenta inimigos, coleta equipamentos, administra seu inventário e busca o lendário **Cetro Milenar**, artefato capaz de mudar o destino do reino.
+Ambientado no reino fictício de **Beigar**, o jogador embarca em uma jornada em busca do lendário **Cetro Milenar**, enfrentando inimigos, coletando equipamentos e tomando decisões que influenciam o desenrolar da história.
 
-O projeto foi desenvolvido de forma colaborativa, aplicando conceitos fundamentais de programação, modularização e desenvolvimento de software.
+O projeto foi desenvolvido de forma colaborativa, integrando lógica de programação, modularização, estruturas de dados, interface gráfica e organização de código em múltiplos módulos.
 
 ---
 
-## 🎮 Funcionalidades
+## ✨ Funcionalidades
 
 - 📜 História dividida em capítulos
 - ⚔️ Sistema de combate por turnos
 - 🎒 Inventário completo
-- 🛡️ Equipamentos (armas e armaduras)
-- 🧪 Sistema de poções
+- 🛡️ Sistema de equipamentos (armas e armaduras)
+- 🧪 Utilização de poções e itens especiais
 - ✨ Ataques especiais
-- 👹 Diversos inimigos
-- 📈 Sistema de atributos (HP, Energia, Ataque e Defesa)
-- 🗺️ Escolhas que influenciam a narrativa
+- 👹 Diversos inimigos e chefes
+- 📊 Sistema de atributos (HP, Energia, Ataque e Defesa)
+- 🗺️ Escolhas que alteram a narrativa
 - 🏆 Diferentes finais
 - 🖥️ Interface gráfica desenvolvida em Tkinter
 
@@ -43,55 +41,56 @@ O projeto foi desenvolvido de forma colaborativa, aplicando conceitos fundamenta
 
 ## 📂 Estrutura do Projeto
 
-```
+```text
 Beigar-RPG/
 │
-├── arquivo_mestre.py      # Fluxo principal da história
+├── arquivo_mestre.py      # Fluxo principal da aventura
 ├── combate.py             # Sistema de combate
 ├── dialogo.py             # Narrativa e diálogos
-├── interface.py           # Status do jogador e inventário
-├── itens.py               # Itens, equipamentos e consumíveis
+├── interface.py           # Interface do jogador e inventário
+├── itens.py               # Itens, armas e armaduras
 ├── entrada_segura.py      # Validação de entradas
 ├── rpg_gui.py             # Interface gráfica
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-## ⚔️ Mecânicas do Jogo
+## 🎮 Mecânicas
 
 Durante a aventura o jogador poderá:
 
-- Escolher diferentes armas
-- Equipar armaduras
-- Utilizar ataques especiais
-- Consumir poções
-- Gerenciar o inventário
-- Derrotar chefes
-- Tomar decisões que alteram a história
-- Coletar itens raros
-- Encontrar o lendário Cetro Milenar
+- Escolher sua arma inicial;
+- Explorar diferentes cenários;
+- Enfrentar inimigos em batalhas por turnos;
+- Equipar armas e armaduras;
+- Utilizar ataques especiais;
+- Gerenciar o inventário;
+- Consumir poções e itens especiais;
+- Tomar decisões que influenciam a história;
+- Encontrar o lendário **Cetro Milenar**.
 
 ---
 
-## 🎯 Conceitos Aplicados
+## 📚 Conceitos Aplicados
 
-Este projeto permitiu aplicar diversos conteúdos estudados na disciplina de Computação I, entre eles:
+Este projeto permitiu aplicar diversos conteúdos estudados na disciplina de Computação I, como:
 
-- Estruturas condicionais
-- Estruturas de repetição
-- Funções
-- Modularização
-- Manipulação de dicionários e listas
-- Programação orientada a eventos
-- Organização de projetos em múltiplos arquivos
-- Interface gráfica com Tkinter
-- Tratamento de entradas inválidas
+- Estruturas condicionais;
+- Estruturas de repetição;
+- Funções;
+- Modularização;
+- Organização de projetos em múltiplos arquivos;
+- Manipulação de listas e dicionários;
+- Validação de entradas do usuário;
+- Interface gráfica com Tkinter;
+- Programação orientada a eventos.
 
 ---
 
-## ▶️ Como executar
+## ▶️ Como Executar
 
 Clone o repositório:
 
@@ -99,7 +98,7 @@ Clone o repositório:
 git clone https://github.com/SEU-USUARIO/Beigar-RPG.git
 ```
 
-Entre na pasta:
+Acesse a pasta do projeto:
 
 ```bash
 cd Beigar-RPG
@@ -113,6 +112,34 @@ python arquivo_mestre.py
 
 ---
 
+## 📸 Interface
+
+O jogo possui uma interface gráfica inspirada em RPGs clássicos, contendo:
+
+- Painel de narrativa;
+- Status do jogador;
+- Barras de Vida e Energia;
+- Inventário;
+- Botões de interação;
+- Layout temático medieval.
+
+> **Sugestão:** adicione capturas de tela do jogo nesta seção para ilustrar a interface.
+
+---
+
+## 🚀 Melhorias Futuras
+
+- Sistema de salvamento de progresso;
+- Trilha sonora;
+- Novos capítulos;
+- Mais inimigos;
+- Sistema de níveis;
+- Novas armas e armaduras;
+- Missões secundárias;
+- Efeitos sonoros e animações.
+
+---
+
 ## 👥 Equipe
 
 Projeto desenvolvido em colaboração por:
@@ -122,39 +149,10 @@ Projeto desenvolvido em colaboração por:
 - **Fabio Filho**
 - **Julia Carvalho**
 
-Como projeto da disciplina **Computação I**.
-
----
-
-## 📸 Interface
-
-A interface do jogo apresenta:
-
-- Painel da história
-- Status do jogador
-- Barras de Vida e Energia
-- Inventário
-- Botões de interação
-- Interface inspirada em RPG medieval
-
-> *(Adicione aqui algumas capturas de tela do jogo.)*
-
----
-
-## 🚀 Possíveis melhorias
-
-- Sistema de salvamento de progresso
-- Trilha sonora
-- Novos capítulos
-- Novos inimigos
-- Sistema de níveis
-- Missões secundárias
-- Mais itens e equipamentos
-- Efeitos sonoros
-- Animações
+Como parte das atividades da disciplina de **Computação I**.
 
 ---
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT.
+Este projeto está licenciado sob a **Licença MIT**. Consulte o arquivo **LICENSE** para mais informações.
