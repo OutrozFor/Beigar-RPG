@@ -144,7 +144,7 @@ O jogo possui uma interface gráfica inspirada em RPGs clássicos, contendo:
 
 Projeto desenvolvido em colaboração por:
 
-- **Julia Fernanda Terra Souza**
+- **Julia Terra**
 - **Ismael Vicente**
 - **Fabio Filho**
 - **Julia Carvalho**
