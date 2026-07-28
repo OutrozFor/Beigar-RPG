@@ -121,7 +121,7 @@ Durante o desenvolvimento foram utilizados conceitos como:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/Beigar-RPG.git
+git clone https://github.com/OutroFor/Beigar-RPG.git
 ```
 
 Entre na pasta:
